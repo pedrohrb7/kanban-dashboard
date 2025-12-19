@@ -135,7 +135,7 @@ Exibir ao menos 3 indicadores, por exemplo:
 ### Limitações
 
 - Autenticação de usuários.
-- Back-end real (APIs reais).
+- Integração com back-end real.
 - Toggle de movimentação de colunas ainda precisa de atenção.
 - Não possui internacionalização (i18n) ou multi temas.
 - Não é possível realizar a criação novas colunas, boards, status ou campos.
