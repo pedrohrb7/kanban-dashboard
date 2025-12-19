@@ -65,6 +65,13 @@ docker compose build --no-cache
 docker compose up // (adicione -d para rodar em segundo plano)
 ```
 
+```
+Projeto desenvolvimento em ambiente linux.
+Distro: Arch Linux
+Docker Compose version 2.40.3
+Docker version 29.1.1
+```
+
 ## Funcionalidades Comuns
 
 #### Tarefa
