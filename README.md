@@ -110,7 +110,7 @@ Atrasado.
     ○ Ordenação por Data de Criação
     ○ Paginação
 
-### Dashboard
+#### Dashboard
 
 Exibir ao menos 3 indicadores, por exemplo:
 
@@ -119,3 +119,30 @@ Exibir ao menos 3 indicadores, por exemplo:
 ● % concluídas no dia / semana.
 
 ● Tempo médio até conclusão (mockado ou calculado).
+
+### Limitações
+
+- Autenticação de usuários.
+- Back-end real (APIs reais).
+- Toggle de movimentação de colunas ainda precisa de atenção.
+- Não possui internacionalização (i18n) ou multi temas.
+- Não é possível realizar a criação novas colunas, boards, status ou campos.
+- Evolução do design system.
+- Melhorias de UX/UI e componentização.
+- Testes automatizados.
+- Hospedagem
+- Deploy automaizado.
+
+### Considerações Finais
+
+Foi um apresendizado muito interessante e desafiador. Algumas funcionalidades foram
+implementadas de forma simplificada devido ao tempo disponível, mas acredito que o
+essencial do sistema e demonstração dos conhecimentos foram contemplados. Mesmo após
+o prazo, pretendo continuar evoluindo o projeto, adicionando melhorias e funcionalidades.
+Pretendo desenvolver um back-end real para persistência dos dados e aprimorar a experiência do
+usuário e tornar deixar a aplicação disponível online para acesso público.
+
+O ponto que mais me desafiou bastante foi a implementação do drag-and-drop com Dnd Kit, que
+exigiu um bom tempo de estudo da biblioteca e adaptação para o contexto do Kanban. No
+entanto, foi uma experiência valiosa que me permitiu aprender mais sobre manipulação de
+estado e interatividade no React, e principalmente, poder visualizar pontos que posso estudar mais.
