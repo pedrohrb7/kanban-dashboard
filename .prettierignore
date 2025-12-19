@@ -1,0 +1,9 @@
+.husky/
+*.lock
+.env
+env.*
+.gitignore
+.prettierignore
+.editorconfig
+Dockerfile.dev
+infra/*

@@ -1,0 +1,22 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #adadad;
+}
+
+.task > ::-webkit-scrollbar-thumb {
+  background-color: #ededed;
+}

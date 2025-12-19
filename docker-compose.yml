@@ -1,0 +1,11 @@
+services:
+  front:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: kanban
+    ports:
+      - '4002:5173'
+    volumes:
+      - .:/app
+      - /app/node_modules

@@ -1,0 +1,23 @@
+# Etapa 1: Base de dependências
+FROM node:24-alpine3.23 AS base
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Copia os arquivos de manifesto do pacote
+COPY --chmod=755 package.json package.json
+COPY --chmod=755 package-lock.json package-lock.json
+
+# Instala as dependências de forma segura
+RUN npm install --ignore-scripts && \
+  chown -R node:node /app/*
+
+# Muda para o usuário não-root 'node'
+USER node
+
+# Expõe a porta do servidor de desenvolvimento
+EXPOSE 4002
+
+# Comando para iniciar a aplicação
+# O "--" garante que o argumento "--host" seja passado para o vite, e não para o npm.
+CMD ["npm", "run", "dev", "--", "--host"]
