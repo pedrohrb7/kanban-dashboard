@@ -1,3 +1,8 @@
+# Kanban Dashboard
+
+![Kanban Screen](https://github.com/pedrohrb7/kanban-dashboard/blob/main/kanban.png?raw=true)
+![Dashboard Screen](https://github.com/pedrohrb7/kanban-dashboard/blob/main/dashboard.png?raw=true)
+
 # Desafio Técnico
 
 ### Objetivo
